@@ -1,0 +1,23 @@
+#########################################################################################
+Ausdaueruebungen (z.B. Laufen, Schwimmen, Fahrrad fahren)
+messen:
+	- Zeit
+	- Distanz
+
+berechnen:
+	- Geschwindigkeit
+
+#########################################################################################
+Wiederholungsuebungen (z.B. Liegestuetzen, Bauchaufzuege)
+messen:
+	- Wiederholungen
+
+#########################################################################################
+Gewichtsuebungen (z.B. Bankdruecken, Bizeps Langhantel im stehen)
+messen:
+	- Gewicht
+	- Wiederholungen
+
+#########################################################################################
+
+Gibt es noch weitere Uebungsarten?
