@@ -1,4 +1,4 @@
-package com.github.skonline90.startup;
+package com.github.skonline90.startup.examples;
 
 import javafx.application.Application;
 import javafx.event.ActionEvent;
