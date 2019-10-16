@@ -3,6 +3,7 @@ package com.github.skonline90.startup.examples;
 import javafx.application.Application;
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
+import javafx.geometry.Insets;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.layout.StackPane;
@@ -42,7 +43,7 @@ public class JavaFxExample extends Application
 
         StackPane root = new StackPane();
         root.getChildren()
-            .add(btn);
+            .addAll(btn);
         primaryStage.setScene(new Scene(root, 300, 250));
         primaryStage.show();
     }
