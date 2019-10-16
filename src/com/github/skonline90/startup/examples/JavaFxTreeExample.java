@@ -11,6 +11,12 @@ import javafx.scene.layout.HBox;
 import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 
+/**
+ * Tutorial https://docs.oracle.com/javafx/2/ui_controls/tree-view.htm
+ *
+ * @author skonline90
+ * @version 17.10.2019
+ */
 public class JavaFxTreeExample extends Application
 {
     private TreeItem<String> rootItem = new TreeItem<String>("Kraftübungen");
