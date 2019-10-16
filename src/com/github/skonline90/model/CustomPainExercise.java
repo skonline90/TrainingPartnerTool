@@ -1,5 +1,7 @@
 package com.github.skonline90.model;
 
+import java.time.Duration;
+
 /**
  * Objekte dieser Klasse repraesentieren Schmerzaushalteuebungen.
  * Schmerzaushalteuebungen sind Uebungen, welche ausschliesslich
@@ -13,5 +15,21 @@ package com.github.skonline90.model;
  */
 public class CustomPainExercise extends CustomExercise
 {
+    private Duration duration;
 
+    public CustomPainExercise(String exerciseName, Duration duration)
+    {
+        super(exerciseName);
+        this.duration = duration;
+    }
+
+    public Duration getDuration()
+    {
+        return duration;
+    }
+
+    public void setDuration(Duration duration)
+    {
+        this.duration = duration;
+    }
 }

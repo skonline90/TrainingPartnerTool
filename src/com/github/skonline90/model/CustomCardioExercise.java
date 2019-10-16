@@ -15,4 +15,32 @@ import java.time.Duration;
 public class CustomCardioExercise extends CustomExercise
 {
     private Duration duration;
+    private MetricDistance distance;
+    
+    public CustomCardioExercise(String name, Duration duration, MetricDistance distance)
+    {
+        super(name);
+        this.duration = duration;
+        this.distance = distance;
+    }
+
+    public Duration getDuration()
+    {
+        return duration;
+    }
+
+    public void setDuration(Duration duration)
+    {
+        this.duration = duration;
+    }
+
+    public MetricDistance getDistance()
+    {
+        return distance;
+    }
+
+    public void setDistance(MetricDistance distance)
+    {
+        this.distance = distance;
+    }
 }

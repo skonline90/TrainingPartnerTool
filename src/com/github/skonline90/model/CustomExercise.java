@@ -10,4 +10,19 @@ package com.github.skonline90.model;
 public class CustomExercise
 {
     private String exerciseName;
+    
+    public CustomExercise(String exerciseName)
+    {
+        this.exerciseName = exerciseName;
+    }
+
+    public String getExerciseName()
+    {
+        return exerciseName;
+    }
+
+    public void setExerciseName(String exerciseName)
+    {
+        this.exerciseName = exerciseName;
+    }
 }
